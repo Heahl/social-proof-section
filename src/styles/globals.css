@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url("/fonts/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
+}
+
+@media (min-width: 768px) {
+    .rating-0 { transform: translateX(0px); }
+    .rating-1 { transform: translateX(20px); }
+    .rating-2 { transform: translateX(40px); }
+}
